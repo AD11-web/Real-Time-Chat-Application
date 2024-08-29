@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d3c09e;
+    color: #333;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .chat-container {
+    background-color: #8f7f6e;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .chat-header h1 {
+    font-size: 30px;
+    color: #2e6dcb; 
+    font-family: 'Arial Black', sans-serif;
+  }
+  
+  .chat-header h2 {
+    font-size: 26px;
+    color: #cb2e6d; 
+    font-family: 'Lucida Console', Courier, monospace;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #645d55;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000;
+    position: relative;
+  }
+  
+  .message .timestamp {
+    font-size: 10px;
+    color: #333;
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+  }
+  
+  .message.user-1 {
+    background-color: #dee6e7;
+    color: #292929;
+  }
+  
+  .message.user-2 {
+    background-color: #ada16d;
+    color: #292929;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #645d55;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .input-group input[type="text"] {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #ede7de;
+  }
+  
+  .input-group button {
+    background-color: #ede7de;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .input-group input[type="text"]:focus,
+  .input-group button:focus {
+    outline: none;
+  }
+  
+  .chat-header h1.title {
+    color: black; 
+  }
+  
+  .chat-header h2.subtitle {
+    color: black; 
+  }
+  
+  .timestamp {
+    color: black; 
+  }
+  
